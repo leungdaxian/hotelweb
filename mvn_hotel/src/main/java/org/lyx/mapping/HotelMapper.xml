@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="org.lyx.dao.HotelDao" >
+
+    <select id="all" resultType="Hotel">
+        select * from hotel
+    </select>
+
+    <select id="searchHotel" resultType="Hotel" parameterType="Hotel">
+        select * from hotel
+        <where>
+            <if test="city !=null">
+                city = #{city}
+            </if>
+            <if test="address !=null">
+                and address = #{address}
+            </if>
+            <if test="style !=null">
+                and style = #{style}
+            </if>
+            <if test="price !=null">
+                <if test="price ==150">
+                    and price between 0 and 150
+                </if>
+                <if test="price ==300">
+                    and price between 150 and 300
+                </if>
+                <if test="price ==450">
+                    and price between 300 and 450
+                </if>
+                <if test="price ==1000">
+                    and price > 450
+                </if>
+            </if>
+        </where>
+    </select>
+
+    <select id="searchHotelc" parameterType="Hotel" resultType="Hotel">
+        select * from hotel
+        <where>
+        <if test="city !=null">
+            city = #{city}
+        </if>
+        <if test="comments !=null">
+            <if test="comments !=''">
+              and comments like concat('%',#{comments},'%')
+            </if>
+        </if>
+        </where>
+    </select>
+
+    <select id="searchHotelcity" parameterType="Hotel" resultType="Hotel">
+        select * from hotel where city=#{city}
+    </select>
+
+    <select id="searchHotelbyid" parameterType="int" resultType="Hotel">
+        select * from hotel where id=#{id}
+    </select>
+
+  <!--<select id="findByName" resultType="FoodInfo">-->
+        <!--select * from foodinfo-->
+        <!--<where>-->
+          <!--<if test="foodName !=null">-->
+            <!--foodName like concat('%',#{foodName},'%')-->
+          <!--</if>-->
+          <!--<if test="remark !=null">-->
+            <!--and remark like concat('%',#{remark},'%')-->
+          <!--</if>-->
+        <!--</where>-->
+  <!--</select>-->
+
+  <!--<select id="findById" parameterType="int" resultType="FoodInfo">-->
+    <!--select * from foodinfo-->
+    <!--where foodId = #{foodId}-->
+  <!--</select>-->
+
+  <!--<delete id="delete" parameterType="int" >-->
+    <!--delete from foodinfo-->
+    <!--where foodId = #{foodId}-->
+  <!--</delete>-->
+  <!---->
+  <!--<insert id="insert" parameterType="FoodInfo">-->
+    <!--INSERT into foodinfo(foodId,foodName,remark,foodPrice,description,foodImage)-->
+    <!--VALUES(#{foodId},#{foodName},#{remark},#{foodPrice},#{description},#{foodImage})-->
+  <!--</insert>-->
+
+  <!--<update id="update" parameterType="FoodInfo">-->
+    <!--update foodinfo set foodName=#{foodName},remark=#{remark},foodPrice=#{foodPrice},description=#{description},foodImage=#{foodImage}-->
+    <!--where foodId=#{foodId}-->
+  <!--</update>-->
+</mapper>

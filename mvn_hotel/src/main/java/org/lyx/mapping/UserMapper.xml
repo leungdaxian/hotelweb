@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="org.lyx.dao.UserDao" >
+
+    <select id="login" parameterType="User" resultType="User">
+        select * from users where phone=#{phone} and passwd=#{passwd}
+    </select>
+
+    <insert id="add" parameterType="User">
+        INSERT into users(uname,phone,passwd)
+        value (#{uname},#{phone},#{passwd})
+    </insert>
+
+    <update id="update" parameterType="User">
+        update users set uname=#{uname},mail=#{mail},sex=#{sex}
+        where id = #{id}
+    </update>
+
+    <update id="updatepd" parameterType="User">
+        update users set passwd=#{passwd}
+        where id = #{id}
+    </update>
+
+
+    <select id="getUser" parameterType="int" resultType="User">
+        select * from users where id=#{id}
+    </select>
+  <!--<select id="findByName" resultType="FoodInfo">-->
+        <!--select * from foodinfo-->
+        <!--<where>-->
+          <!--<if test="foodName !=null">-->
+            <!--foodName like concat('%',#{foodName},'%')-->
+          <!--</if>-->
+          <!--<if test="remark !=null">-->
+            <!--and remark like concat('%',#{remark},'%')-->
+          <!--</if>-->
+        <!--</where>-->
+  <!--</select>-->
+
+  <!--<select id="findById" parameterType="int" resultType="FoodInfo">-->
+    <!--select * from foodinfo-->
+    <!--where foodId = #{foodId}-->
+  <!--</select>-->
+
+  <!--<delete id="delete" parameterType="int" >-->
+    <!--delete from foodinfo-->
+    <!--where foodId = #{foodId}-->
+  <!--</delete>-->
+  <!---->
+  <!--<insert id="insert" parameterType="FoodInfo">-->
+    <!--INSERT into foodinfo(foodId,foodName,remark,foodPrice,description,foodImage)-->
+    <!--VALUES(#{foodId},#{foodName},#{remark},#{foodPrice},#{description},#{foodImage})-->
+  <!--</insert>-->
+
+  <!--<update id="update" parameterType="FoodInfo">-->
+    <!--update foodinfo set foodName=#{foodName},remark=#{remark},foodPrice=#{foodPrice},description=#{description},foodImage=#{foodImage}-->
+    <!--where foodId=#{foodId}-->
+  <!--</update>-->
+</mapper>

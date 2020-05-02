@@ -1,0 +1,77 @@
+.login{
+	width: 1500px;
+	height: 500px;
+	background: url(../img/login.jpg);
+}
+.loginin{
+	float: right;
+	background:white;
+	margin-right: 50px;
+	margin-top: 80px;
+}
+.row{
+	margin-top: 80px;
+	line-height: 50px;
+	
+}
+.rowin{
+	padding-left: 20px;
+	font-size: 20px;
+}
+.btn{
+	margin-top:30px;
+	margin-left:30px;
+	width:80px;
+	height:35px;
+	background:snow ;
+	font-size:18px;
+	font-weight:bold;
+}
+.btnsend{
+	margin-top:10px;
+	/*margin-left:-50px;*/
+	width:120px;
+	height:35px;
+	background:snow ;
+	font-size:18px;
+	font-weight:bold;
+}
+.btnon{
+	margin-top:30px;
+	margin-left:30px;
+	width:480px;
+	height:55px;
+	background:red ;
+	font-size:18px;
+	font-weight:bold;
+}
+.code{
+	padding-top:30px;
+	display: none;
+}
+.code1{
+	padding-top:30px;
+	/*display: none;*/
+}
+#btn{
+	padding-left: 70px;
+}
+.jiacu{
+	font-weight: bold;
+}
+.register{
+	margin-top: 50px;
+}
+a{
+	color: goldenrod;
+	text-decoration: none;
+}
+.yanzheng{
+	color: red;
+	display: none;
+}
+.yanzheng1{
+	 color: red;
+	 display: none;
+ }
+

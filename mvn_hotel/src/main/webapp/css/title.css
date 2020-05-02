@@ -1,0 +1,128 @@
+.first{
+				float: left;
+				margin-left: 40px;
+				margin-top: 20px;
+				color: black;
+				width:100px;
+				
+			}
+			.firstimg{
+				float: left;
+				
+			}
+			.firstrightup{
+				float: left;
+				margin-left: 10px;
+				font-size: 23px;
+				padding-left: 10px;
+				color: black;
+			}
+			.firstrightdown{
+				float: left;
+				margin-left: 5px;
+				margin-top: 10px;
+				font-size: 16px;
+				color: black;
+			}
+			#downone{
+				clear: left;
+				float: left;
+				margin-top:7px;
+			}
+			#rightfirst{
+				float: left;
+				margin-top: 10px;
+				margin-left: 150px;
+			}
+			.title{
+				height:100px;
+				width:1280px;
+				margin-left: 120px;
+				text-decoration: none;
+				z-index: 0;
+				margin-top: 20px;
+			}
+			div[id="denglujiabinhui"]{
+				color: goldenrod;
+			}
+			a:hover .firstrightup{
+				color: red;
+			}
+			.biaoqian{
+				display: none;
+				z-index: 1;
+			}
+			a:hover .biaoqian{
+				display: inherit;
+				
+			}
+			/*a:hover div[id="biaoqian1"]{
+				background: gainsboro;
+			}*/
+			#biaoqian1{
+				font-size:13px;
+				width:100px;
+				border:1px solid black;
+				height:20px;
+				margin: 0px auto;
+			}
+			#biaoqian1:hover{
+				background: gainsboro;
+			}
+			.order{
+				width: 1500px;
+			}
+			
+.tixing{
+	text-align: left;
+	margin-left: 300px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.tu{
+	float: left;
+}
+.neirong1{
+	float: left;
+	text-align: left;
+	margin-left: 100px;
+}
+.neirong2{
+	width:240px;
+	height: 140px;
+	background: #DEB887;
+	float: left;
+	margin-left: 100px;
+}
+.houbiao{
+	margin-left: 280px;
+}
+.neirong11{
+	margin-top: 10px;
+}
+.neirong21{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	color: red;
+}
+.neirong22{
+	padding-top: 10px;
+	margin-top: 20px;
+	text-align: center;
+	width:140px;
+	height: 40px;
+	background: #DEB887;
+}
+.yuding{
+	width:120px;
+	height: 40px;
+	color: white;
+	background: red;
+}
+.qiyewen{
+	width: 900px;
+	text-align: left;
+	margin-bottom:50px;
+}

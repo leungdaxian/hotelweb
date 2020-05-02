@@ -1,0 +1,463 @@
+.first{
+				float: left;
+				margin-left: 20px;
+				margin-top: 20px;
+				color: black;
+				width:100px;
+				
+			}
+			.firstimg{
+				float: left;
+				
+			}
+			.firstrightup{
+				float: left;
+				margin-left: 10px;
+				font-size: 23px;
+				padding-left: 10px;
+				color: black;
+			}
+			.firstrightdown{
+				float: left;
+				margin-left: 5px;
+				margin-top: 10px;
+				font-size: 16px;
+				color: black;
+			}
+			#downone{
+				clear: left;
+				float: left;
+				margin-top:7px;
+			}
+			#rightfirst{
+				float: left;
+				margin-top: -10px;
+				margin-left: 150px;
+			}
+			.title{
+				height:100px;
+				width:1280px;
+				margin-left: 120px;
+				text-decoration: none;
+				z-index: 0;
+				margin-top: 20px;
+			}
+			div[id="denglujiabinhui"]{
+				color: goldenrod;
+			}
+			a:hover .firstrightup{
+				color: red;
+			}
+			.biaoqian{
+				display: none;
+				z-index: 1;
+			}
+			a:hover .biaoqian{
+				display: inherit;
+				
+			}
+			/*a:hover div[id="biaoqian1"]{
+				background: gainsboro;
+			}*/
+			#biaoqian1{
+				font-size:13px;
+				width:100px;
+				border:1px solid black;
+				height:20px;
+				margin: 0px auto;
+			}
+			#biaoqian1:hover{
+				background: gainsboro;
+			}
+			
+			.second{
+			    margin-top: 40px;
+				width:1280px;
+				height:600px;
+				clear: left;
+				text-decoration: none;
+				z-index: -1;
+				background: url(img/5c64dd71-296b-4dff-a74e-87c46072140c2.jpg) no-repeat;
+				
+				/*width:1280px;
+				height: 450px;;*/
+			}
+			.second1{
+				float: left;
+				width:180px;
+				height:30px;
+				background: gray;
+				padding-top: 10px;
+				color: white;
+				margin-top: 50px;
+				opacity: 0.5;
+			}
+			.secondtwo{
+				clear: left;
+				background: black;
+				width:1080px;
+				height:150px;
+				font-size: 18px;
+				opacity: 0.8;
+			}
+			.second2{
+				float: left;
+				width:180px;
+				height:60px;
+				background: white;
+				margin-top: 30px;
+				padding-top: 30px;
+			}
+			#secondsecond{
+				width:310px;
+			}
+			#secondfirst{
+				margin-left:50px;
+			}
+			#second1first{
+				margin-left: 100px;
+				clear: left;
+			}
+			.secondlr{
+				width:50px;
+				height:40px;
+				opacity: 0.8;
+				background: #FFFFFF;
+				float: left;
+				color:gray;
+				padding-top: 14px;
+				margin-top: 180px;
+				font-size:20px;
+			}
+			#secondl{
+				margin-right: 1180px;
+			}
+			a:hover .secondlr{
+				background: red;
+				color: white;
+			}
+			a:hover .second1{
+				background: black;
+				font-size: 20px;
+			}
+			span{
+				font-size: 20px;
+				color: goldenrod;
+			}
+			#secondthird{
+				background: red;
+				font-size:20px;
+				color: white;
+				font-weight: bolder;
+			}
+			a:hover #secondthird{
+				opacity: 0.6;
+			}
+			.secondselect{
+				width:15px;
+				height:15px;
+				background: white;
+				border-radius: 50px;
+				float: left;
+				margin-left: 40px;
+			}
+			.secondthree{
+				margin-left: 500px;
+				margin-top: 5px;
+			}
+			a:hover .secondselect{
+				background: #FF0000;
+			}
+			.allpai{
+				margin-top:10px ;
+				float: left;
+				clear: left;
+			}
+			.pinpaixia{
+				clear: left;
+				margin-left:100px;
+				
+			}
+			.jiudian{
+				width:190px;
+				float: left;
+				padding-left:10px ;
+				color:gray;
+				font-size:16px;
+				text-decoration: none;
+				margin-bottom: 10px;
+			}
+			a:hover .jiudian{
+				color: red;
+				font-size:20px;
+			}
+			#jiudian1{
+				clear: left;
+				color: red;
+				font-size:20px;
+			}
+			#pinpaixiatu1{
+				clear: left;
+				float: left;
+			}
+			.pinpaixiatu{
+				margin-top: 20px;
+				margin-right: 20px;
+				margin-bottom: 20px;
+				float: left;
+			}
+			.jianguo{
+				margin-top:200px ;
+				width:1280px;
+				height:600px;
+				background: url(img/jhjd.jpg) no-repeat;
+				z-index: -1;
+				
+			}
+			
+			#liaojie{
+				position: relative;
+				top:100px;
+				left: 300px;
+				width:300px;
+				height:350px;
+				z-index: 0;
+				opacity: 0.8;
+				font-size:22px;
+				background-color: #DCDCDC;
+				
+			}
+			#liaojie1{
+				padding-top: 50px;
+			}
+			#liaojie2{
+				margin-top: 20px;
+			}
+			#liaojie3{
+				margin-top: 30px;
+			}
+			/*#xiangqing{
+				padding-top:10px ;
+				width:100px;
+				height: 30px;
+				border:1px solid goldenrod;
+				font-size:16px;
+				color: goldenrod;
+				
+			}*/
+			.jin{
+				padding-top:10px ;
+				width:100px;
+				height: 30px;
+				border:1px solid goldenrod;
+				font-size:16px;
+				color: goldenrod;
+				text-decoration: none;
+			}
+			a:hover .jin{
+				color: white;
+				background: gold;
+			}
+			.huiyuan{
+				font-size:24px;
+			}
+			.rensheng{
+				margin-top: 20px;
+				width:1280px;
+				height:500px;
+				background: gainsboro;
+			}
+			.rensleft{
+				float: left;
+				padding-top: 50px;
+				
+			}
+			.rens1{
+				font-size:22px;
+				float: left;
+				clear: left;
+				margin-left:100px ;
+			}
+			#rens2n{
+				margin-top: 20px;
+			}
+			.rens2{
+				margin-left:100px ;
+				margin-top: 20px;
+				clear: left;
+				float: left;
+			}
+			.more{
+				clear: left;
+				float: left;
+				margin-left:100px ;
+				color: goldenrod;
+				text-decoration: none;
+				width:120px;
+				height: 30px;
+				padding-top: 10px;
+				margin-top: 50px;
+				border:1px solid goldenrod;
+			}
+			a:hover .more{
+				background: goldenrod;
+				color: white;
+			}
+			.rensright{
+				float: left;
+			}
+			.rens3{
+				float: left;
+				overflow: hidden;
+				width:370px;
+				height: 448px;
+				margin-top: 30px;
+				margin-left: 40px;
+			}
+			#rens3s{
+				width:370px;
+				height: 448px;
+				transition: transform 0.5s ease-in-out 1s;
+			}
+			#rens3s:hover{
+				transform: scale(1.2);
+			}
+			.rens4{
+				width:370px;
+				height: 448px;
+				margin-top: 30px;
+				margin-left: -40px;
+				float: left;
+			}
+			.rens4n{
+				overflow: hidden;
+				width:220px;
+				height: 220px;
+			}
+			#rens4t{
+				margin-top: 10px;
+			}
+			#rens4s{
+				transition: transform 0.5s ease-in-out 1s;
+			}
+			#rens4s:hover{
+				transform: scale(1.2);
+			}
+			.remen{
+				font-size:24px;
+				margin-top: 50px;
+			}
+			.remenx{
+				margin-top: 50px;
+				margin-left: 40px;
+			}
+			.remen1{
+				float: left;
+				margin-left: 60px;
+			}
+			#remeno{
+				z-index: 0;
+			}
+			#remeno1{				
+				z-index: -1;
+				position: absolute;
+				left:108px;				
+			}
+			#remeno:hover{
+				visibility: hidden;
+			}
+			#rement{
+				z-index: 0;
+			}
+			#rement2{				
+				z-index: -1;
+				position: absolute;
+				left:558px;				
+			}
+			#rement:hover{
+				visibility: hidden;
+			}
+			#rementh{
+				z-index: 0;
+			}
+			#rementh3{				
+				z-index: -1;
+				position: absolute;
+				left:1028px;				
+			}
+			#rementh:hover{
+				visibility: hidden;
+			}
+			.chengshi{
+				margin-top: 550px;
+				width:1280px;
+				height:150px;
+				border: 1px solid gray;
+			}
+			.cheng1{
+				text-align: left;
+				margin-left: 100px;
+				margin-top: 50px;
+				float: left;
+			}
+			.cheng2{
+				width:1000px;
+				height:400px;
+				float: left;
+				text-decoration: none;
+				margin-top: 50px;
+			}
+			.jiudiandi{
+				float: left;
+				margin-left: 100px;
+				color: gold;
+				text-decoration: none;
+			}
+			a:hover .jiudiandi{
+				text-decoration: underline;
+			}
+			.tailup{
+				clear: left;
+				width: 1280px;
+				height:400px;
+				background: #DCDCDC;
+			}
+			.tailkuai{
+				width:170px;
+				height:400px;
+				text-align: left;
+				float: left;
+				margin-top: 50px;
+				margin-left: 10px;
+			}
+			.tbiao{
+				font-size: 20px;
+				font-weight: bold;
+			}
+			.tarti{
+				margin-top: 10px;
+				color: black;
+				text-decoration: underline;	
+			}
+			#terwei{
+				width:500px;
+			}
+			.erweima{
+				float: left;
+				margin-left: 30px;
+			}
+			.erweimat{
+				font-size: 18px;
+			}
+			.dianhua{
+				
+				clear: left;
+				text-align: center;
+			}
+			.dianhup{
+				margin-top: 80px;
+			}
+			.dianh{
+				font-size: 20px;
+				font-weight: bold;
+			}
